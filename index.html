@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ruhit / Personal Protfolio </title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/quary.css" />
+</head>
+
+<body>
+    <header id="hoem" class="smoothScroll">
+
+
+        <nav uk-sticky="top: 500; bottom: #animation">
+            <div class="row">
+                <div class="logo">
+                    <p><span>R</span>uhit</p>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#hoem">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#protfolio">Protfolio</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="toggler" uk-toggle="target: #offcanvas-flip">
+                    <ion-icon name="reorder-three-outline"></ion-icon>
+                </a>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="text-header">
+                <h3>The Best business Information</h3>
+                <h1 class="ah-headline">
+                    <span>i am</span>
+                    <span class="ah-words-wrapper">
+                        <b class="is-visible"> web designer</b>
+                        <b>web developer</b>
+                        <b>Ruhit</b>
+                    </span>
+                </h1>
+                <div class="head-btn">
+
+                    <a href="#"> Read More</a>
+
+                    <a href="#" uk-toggle="target: #modal-example">Contact ua!</a>
+
+
+
+                    <div id="modal-example" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body">
+                            <h3>Contact Us!</h3>
+                            <p>
+                                <form action="#">
+                                    <div class="uk-margin">
+                                        <input class="uk-input" type="text" Placeholder="Enter Your Name">
+                                    </div>
+                                    <div class="uk-margin">
+                                        <input class="uk-input" type="email" Placeholder="Enter Your Email">
+                                    </div>
+                                    <div class="uk-margin">
+                                        <textarea name="" id="" cols="30" rows="10" class="uk-textarea" placeholder="Massage"></textarea>
+                                    </div>
+                                    <div class="uk-margin">
+                                        <button class="uk-button uk-button-primary">SEND</button>
+                                    </div>
+
+
+
+                                </form>
+                            </p>
+                            <p class="uk-text-right">
+                                <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                                <button class="uk-button uk-button-primary" type="button">Save</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <ul>
+                <li><a href="#hoem">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#protfolio">Protfolio</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <section id="about" class="smoothScroll">
+        <div class="row">
+            <div class="about-text">
+                <h2>About eBusiness</h2>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item" uk-scrollspy="cls: uk-animation-slide-left; repeat: true"><img src="img/about1.jpg" alt="new" /></div>
+                <div class="grid-item">
+                    <div class="about-item">
+                        <h5>Project Mentaintens</h5>
+                        <p uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum necessitatibus, sed aliquam esse porro voluptatem cumque perferendis quidem optio consequuntur corrupti explicabo sapiente amet ratione
+                            accusantium, impedit recusandae, quod iusto.
+                        </p>
+                        <ul class="about-content">
+                            <li>
+                                <ion-icon name="checkmark-outline"></ion-icon> Interior design Package
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-outline"></ion-icon> Building House
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-outline"></ion-icon> Reparing of Residentail Roof
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-outline"></ion-icon> Renovaion of Commercial Office
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-outline"></ion-icon> Make Quality Products
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="smoothScroll">
+        <div class="row">
+            <div class="services-text">
+                <h2>Our Services</h2>
+            </div>
+            <div class="grid-services-contanier">
+                <div class="grid-services-item">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                    <h4>Expert Coder</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, reiciendis.</p>
+                </div>
+                <div class="grid-services-item">
+                    <ion-icon name="camera-outline"></ion-icon>
+                    <h4>Expert Coder</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, reiciendis.</p>
+                </div>
+                <div class="grid-services-item">
+                    <ion-icon name="logo-wordpress"></ion-icon>
+                    <h4>Expert Coder</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, reiciendis.</p>
+                </div>
+                <div class="grid-services-item">
+                    <ion-icon name="camera-outline"></ion-icon>
+                    <h4>Expert Coder</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, reiciendis.</p>
+                </div>
+                <div class="grid-services-item">
+                    <ion-icon name="bar-chart-outline"></ion-icon>
+                    <h4>Expert Coder</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, reiciendis.</p>
+                </div>
+                <div class="grid-services-item">
+                    <ion-icon name="cash-outline"></ion-icon>
+                    <h4>Expert Coder</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, reiciendis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work" class="smoothScroll">
+        <div class="row">
+            <div class="work-text">
+                <h2>Work Process</h2>
+            </div>
+            <div class="grid-work-container">
+                <div class="grid-work-item">
+                    <span class="counter">90</span><span>%</span>
+                    <h6>HTML</h6>
+                </div>
+                <div class="grid-work-item">
+                    <span class="counter">95</span> <span>%</span>
+                    <h6>CSS</h6>
+                </div>
+                <div class="grid-work-item">
+                    <span class="counter">80</span> <span>%</span>
+                    <h6>JAVASCRIPT</h6>
+                </div>
+                <div class="grid-work-item">
+                    <span class="counter">70</span> <span>%</span>
+                    <h6>PHP</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq" class="smoothScroll">
+        <div class="row">
+            <div class="faq-text">
+                <h2>Queaction</h2>
+            </div>
+            <div class="grid-faq-container">
+                <div class="grid-faq-item">
+                    <ul uk-accordion>
+                        <li>
+                            <a class="uk-accordion-title left-item" href="#">Item 1</a>
+                            <div class="uk-accordion-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </li>
+                        <li class="uk-open">
+                            <a class="uk-accordion-title left-item" href="#">Item 2</a>
+                            <div class="uk-accordion-content">
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="uk-accordion-title left-item" href="#">Item 3</a>
+                            <div class="uk-accordion-content">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid-faq-item">
+                    <div>
+                        <ul class="uk-tab-right" uk-accordion="collapsible: false" uk-tab>
+                            <li class="uk-active">
+                                <a class="uk-accordion-title" href="#">Item 1</a>
+                                <div class="uk-accordion-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title" href="#">Item 2</a>
+                                <div class="uk-accordion-content">
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title" href="#">Item 3</a>
+                                <div class="uk-accordion-content">
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="smoothScroll">
+        <div class="row">
+            <div class="team-text">
+                <h2>Our Team</h2>
+            </div>
+            <div class="grid-tema-container">
+                <div class="grid-team-item">
+                    <img src="img/1.jpg" alt="joy image" />
+                    <div>
+                        <h6>Jodn Yahoo</h6>
+                        <span>CEO/MARKETING</span>
+                        <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="grid-team-item">
+                    <img src="img/2.jpg" alt="joy image" />
+                    <div>
+                        <h6>Jodn Yahoo</h6>
+                        <span>CEO/MARKETING</span>
+                        <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="grid-team-item">
+                    <img src="img/3.jpg" alt="joy image" />
+                    <div>
+                        <h6>Jodn Yahoo</h6>
+                        <span>CEO/MARKETING</span>
+                        <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="grid-team-item">
+                    <img src="img/4.jpg" alt="joy image" />
+                    <div>
+                        <h6>Jodn Yahoo</h6>
+                        <span>CEO/MARKETING</span>
+                        <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="protfolio" class="smoothScroll">
+        <div class="row">
+            <div class="protfolio-text">
+                <h2>Our Protfolio</h2>
+            </div>
+            <div class="button">
+                <button type="button" data-filter="all">All</button> <button type="button" data-filter=".web-design">WebDesign</button> <button type="button" data-filter=".web-dev">WebDevelopment</button>
+                <button type="button" data-filter=".wp">WordPress</button>
+            </div>
+            <div class="grid-protfolio-container" uk-lightbox="animation: slide">
+                <div class="grid-protfolio-item mix web-design wp">
+                    <a href="img/p1.jpg"> <img src="img/p1.jpg" alt="" /> </a>
+                </div>
+                <div class="grid-protfolio-item mix web-dev">
+                    <a href="img/p2.jpg"> <img src="img/p2.jpg" alt="" /> </a>
+                </div>
+                <div class="grid-protfolio-item mix web-design">
+                    <a href="img/p3.jpg"> <img src="img/p3.jpg" alt="" /> </a>
+                </div>
+                <div class="grid-protfolio-item mix web-dev wp">
+                    <a href="img/p4.jpg"> <img src="img/p4.jpg" alt="" /> </a>
+                </div>
+                <div class="grid-protfolio-item mix web-dev">
+                    <a href="img/p5.jpg"> <img src="img/p5.jpg" alt="" /> </a>
+                </div>
+                <div class="grid-protfolio-item mix web-dev web-design">
+                    <a href="img/p6.jpg"> <img src="img/p6.jpg" alt="" /> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testomonial" class="smoothScroll">
+        <div class="row">
+            <div class="icons" style="margin-bottom:40px;">
+                <ion-icon name="download-outline"></ion-icon>
+            </div>
+            <div class="swiper-container">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, et sunt nulla culpa pariatur similique odit. Fuga laboriosam sapiente nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur,
+                            tempore!
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, et sunt nulla culpa pariatur similique odit. Fuga laboriosam sapiente nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur,
+                            tempore!
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, et sunt nulla culpa pariatur similique odit. Fuga laboriosam sapiente nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur,
+                            tempore!
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="smoothScroll">
+        <div class="row">
+            <div class="blog-text">
+                <h2>Our Letest Post</h2>
+            </div>
+            <div class="grid-blog-container">
+                <div class="grid-blog-item">
+                    <img src="img/blog1.jpg" alt="" />
+                    <p>
+                        <span>
+                            <ion-icon name="chatbox-outline"></ion-icon>
+                        </span> 0 Comments <span>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </span> 02.02.2020 / 9:00:00 <sub>pm</sub>
+                    </p>
+                    <a href="#">
+                        <h5>Assumenda repud eum veniam</h5>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, nostrum!</p>
+                    <a class="btn" href="#"> Read More</a>
+                </div>
+                <div class="grid-blog-item">
+                    <img src="img/blog2.jpg" alt="" />
+                    <p>
+                        <span>
+                            <ion-icon name="chatbox-outline"></ion-icon>
+                        </span> 0 Comments <span>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </span> 02.02.2020 / 9:00:00 <sub>pm</sub>
+                    </p>
+                    <a href="#">
+                        <h5>Assumenda repud eum veniam</h5>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, nostrum!</p>
+                    <a class="btn" href="#"> Read More</a>
+                </div>
+                <div class="grid-blog-item">
+                    <img src="img/blog3.jpg" alt="" />
+                    <p>
+                        <span>
+                            <ion-icon name="chatbox-outline"></ion-icon>
+                        </span> 0 Comments <span>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </span> 02.02.2020 / 9:00:00 <sub>pm</sub>
+                    </p>
+                    <a href="#">
+                        <h5>Assumenda repud eum veniam</h5>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, nostrum!</p>
+                    <a class="btn"  uk-scrollspy="cls: uk-text-center; repeat: true" href="#"> Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="smoothScroll">
+        <div class="row">
+            <div class="contact-text">
+                <h2>Contact Us!</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="grid-map-container">
+                <div class="grid-map-item">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3636.0827170378407!2d91.72314491439796!3d24.308749684317032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37517a6f6e5dd3db%3A0x5685e81c945aed6e!2z4Ka44Kas4KeB4Kac4Kas4Ka-4KaXIOCmsOCni-CmoSwg4Ka24KeN4Kaw4KeA4Kau4KaZ4KeN4KaX4Kay!5e0!3m2!1sbn!2sbd!4v1591083937827!5m2!1sbn!2sbd" width="100%" height="450" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="grid-map-item">
+                    <form action="#">
+                        <div class="name-fild"><input type="text" placeholder="First Name" /> <input type="text" placeholder="Last Name" /></div>
+                        <div class="email-field gap"><input type="email" placeholder="Email" /></div>
+                        <div class="massage-field gap"><textarea name="" id="" cols="20" rows="10" placeholder="Massage"></textarea></div>
+                        <div class="sent-fild"><a href="#" class="btn">Sent</a></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="smoothScroll">
+        <div class="row">
+
+            <div class="social-icon">
+                <ul>
+                    <li><a href="#">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a></li>
+                </ul>
+            </div>
+
+
+            <p>Copyright &copy; <span>R</span>uhit 2020</p>
+
+
+            <a href="#" class="totop" uk-totop uk-scroll> </a>
+        </div>
+    </footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery.animatedheadline.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
